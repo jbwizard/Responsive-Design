@@ -1,24 +1,21 @@
 body{
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 header{
-    width: 60%;
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 62px;
-    margin-bottom: 139px;
-
+    padding-bottom: 143px;
 }
 
 .menu-items{
-    width: 267px;
-    height: 25px;
     font-family: 'Source Sans Pro';
     font-style: normal;
     font-weight: 400;
@@ -34,6 +31,13 @@ a{
     text-decoration: none;
 }
 
+a:hover{
+    opacity: 50%;
+}
+
+a:visited{
+    color: black;
+}
 
 .logo{
     font-family: 'Aldrich';
@@ -77,4 +81,55 @@ p{
     margin-bottom: 47px;
 }
 
-@media
+
+@media screen and (min-width: 601px) {
+    .fa-solid{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    h1{
+        font-size: 72px;
+        line-height: 83px;
+        /* identical to box height, or 115% */
+        letter-spacing: -1.6px;
+    }
+
+    header{
+        margin-top: 34px;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    header{
+        margin-top: 11px;
+    }
+
+    .menu-item{
+        display: none;
+    }
+
+    h1{
+        font-size: 36px;
+        line-height: 40px;
+        /* identical to box height, or 110% */
+        text-align: center;
+        letter-spacing: -0.8px;
+    }
+
+    p{
+        max-width: 217px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .responsive{
+
+     }
+
+
+
+    }
+
