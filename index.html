@@ -30,7 +30,12 @@
             <p>Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcor.</p>
         </div>
         <div class="img-container">
-            <img class="responsive" src="/images/image-big.jpg" srcset="image-big.jpg,image-medium.jpg 800px, image-small.jpg 600px" alt="Horses on a field">
+            <picture>
+                <source media="(max-width: 800px)" srcset="/images/image-small.jpg">
+                <source media="(max-width: 1000px)" srcset="/images/image-medium.jpg">
+                <source media="(min-width: 1001px)" srcset="/images/image-big.jpg">
+                <img src="images/image-big.jpg" alt="Horses in a field">
+            </picture>
         </div>
     </main>
 </body>
