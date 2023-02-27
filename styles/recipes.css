@@ -54,7 +54,6 @@ header{
     align-items: center;
     max-width: 450px;
     margin-top: 62px;
-    margin-left: 142px; 
 }
 
 
@@ -68,21 +67,5 @@ header{
 }
 
 @media screen and (max-width: 800px){
-    h1{
-        font-size: 36px;
-        line-height: 40px;
-        letter-spacing: -0.8px;
-    }
-
-    p{
-        font-size: 12px;
-        line-height: 18px;
-    }
-
-    .section{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
+    
 }
