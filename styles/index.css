@@ -28,17 +28,20 @@ header{
     gap: 28px;
 }
 
-a{
+a:link{
     text-decoration: none;
+    color:#111111;
+}
+
+a:visited{
+    text-decoration: none;
+    color: #111111;
 }
 
 a:hover{
     opacity: 50%;
 }
 
-a:visited{
-    color: black;
-}
 
 .logo{
     font-family: 'Aldrich';
