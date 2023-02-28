@@ -13,32 +13,29 @@
     <link rel="stylesheet" href="/styles/recipes.css">
 </head>
 <body>
-    <header class="header">
-        <div class="logo"><img src="/images/Logo.svg" alt="logo"></div>
+    <div class="left-side">
         <nav class="menu">
+            <img src="/images/Logo.svg" alt="logo">
             <ul class="menu-items">
-                <li><a>Works</a></li>
-                <li><a>Services</a></li>
-                <li><a>Contacts</a></li>
-               <!-- <li><a><i class="fa-solid fa-ellipsis fa-xl"></i></a></li>-->
+                <li class="menu-item"><a href="">Works</a></li>
+                <li class="menu-item"><a href="">Services</a></li>
+                <li class="menu-item"><a href="">Contacts</a></li>
+                <li><a><i class="fa-solid fa-ellipsis"></i></a></li>
             </ul>
         </nav>
-    </header>
-    <main>
-        <div class="section">
-            <div class="info_container">
-                <h1>Recipes</h1>
-                <p>Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcor.</p>
-            </div>
-            <div class="img">
-                <picture>
-                    <source media="(max-width: 800px)" srcset="/images/recipe-small.jpg">
-                    <source media="(max-width: 1000px)" srcset="/images/recipe-medium.jpg">
-                    <source media="(min-width: 1001px)" srcset="/images/recipe-big.jpg">
-                    <img src="images/recipe-big.jpg" alt="Pumpkin soup">
-                </picture>
-            </div>
-        </div>
-    </main>
+        <div class="info-container">
+            <h1>Recipes</h1>
+            <p>Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcor.</p>
+        </div>   
+        <img class="arrow" src="/images/Icon.svg" alt="arrow">
+    </div>    
+    <div class="img-container">
+        <picture>
+            <source media="(max-width: 800px)" srcset="/images/recipe-small.jpg">
+            <source media="(max-width: 1000px)" srcset="/images/recipe-medium.jpg">
+            <source media="(min-width: 1001px)" srcset="/images/recipe-big.jpg">
+            <img src="images/recipe-big.jpg" alt="Pumpkin soup">
+        </picture>
+    </div>    
 </body>
 </html>
